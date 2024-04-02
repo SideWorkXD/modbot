@@ -2,14 +2,14 @@ const { EmbedBuilder } = require('discord.js');
 
 module.exports = {
     name: 'support',
-    description: 'support server of this Bot',
+    description: 'Support server of this Bot',
     execute(message, args) {
-        const supportServerLink = 'https://discord.gg/FUEHs7RCqz';
+        const supportServerLink = 'https://discord.gg/BsdfHF6r2M';
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle('Support server')
-            .setDescription(`Click [here](${supportServerLink}) to join our server.\nWe will be there for you anytime <a:69:1119532854699896842>`)
-            .setThumbnail(`https://cdn.discordapp.com/attachments/1113800537402527903/1119995338359586837/a_e8d3128cee7f07ccec68962a8294f43d.gif`)
+            .setDescription(`Click [here](${supportServerLink}) to join our server.\n We will be there for you anytime <a:discord:859462724613570596>`)
+            .setThumbnail(`https://media.discordapp.net/attachments/1135823713741324400/1224790058117365893/standard_2.gif?ex=661ec5a1&is=660c50a1&hm=3b28d48e71b849b736e4f3b632e216a02e3dc0fd5fe66c5605ade9b8b981bd45&=`)
             .setTimestamp();
 
 
