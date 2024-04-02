@@ -11,7 +11,7 @@ module.exports = {
             .setAuthor({ name: 'MODERATION BOT' })
             .setColor('#4c0385')
             .setDescription('**HERE ARE THE AVAILABLE COMMANDS**   \n\n <a:dstar:859462751255658506> __Basic__:\n avatar, ascii, prefix  \n\n <a:dstar:859462751255658506>__Advanced__:\n kick, ban, serverinfo, userinfo, ping  \n\n <a:dstar:859462751255658506> __Utility__:\n prefix, owner, support, invite  ')
-			.setThumbnail('https://media.discordapp.net/attachments/1149279708924629003/1222700836170502265/standard_1.gif?ex=66172be4&is=6604b6e4&hm=c53649fae3271e7a8dc5e6dea8b2edfcf1ee7f76f5e607eecc3530aed39164d9&=')
+			.setThumbnail('https://media.discordapp.net/attachments/1135823713741324400/1224790058117365893/standard_2.gif?ex=661ec5a1&is=660c50a1&hm=3b28d48e71b849b736e4f3b632e216a02e3dc0fd5fe66c5605ade9b8b981bd45&=')
 
 		
 		
