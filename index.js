@@ -34,9 +34,9 @@ client.once('ready', () => {
     console.log('MADE BY RTX GAMING');
     client.user.setPresence({
         activities: [{
-            name: 'with RTX',
+            name: 'with BilloXD',
             type: ActivityType.Playing,
-            url: 'https://www.twitch.tv/RTX'
+            url: 'https://www.twitch.tv/billoxd69'
         }],
         status: 'available'
     });
