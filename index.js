@@ -4,18 +4,30 @@ const fs = require('fs');
 const path = require('path');
 const express = require('express');
 require('dotenv').config();
-const { printWatermark } = require('./functions/handlers');
 
 
 
 const client = new Client({
-  intents: Object.keys(GatewayIntentBits).map((a) => {
-    return GatewayIntentBits[a];
-  }),
+    intents: [
+        GatewayIntentBits.Guilds,
+        GatewayIntentBits.GuildMessages,
+        GatewayIntentBits.MessageContent,
+        GatewayIntentBits.GuildMembers,
+        GatewayIntentBits.GuildMessageReactions,
+        GatewayIntentBits.GuildBans,
+        GatewayIntentBits.GuildVoiceStates,
+        GatewayIntentBits.GuildInvites,
+        GatewayIntentBits.GuildMessageTyping,
+        GatewayIntentBits.DirectMessages,
+        GatewayIntentBits.DirectMessageReactions,
+        GatewayIntentBits.DirectMessageTyping,
+    ],
 });
 
-const prefix = '$';
-client.commands = new Map(); 
+
+// Set the prefix for the bot
+const prefixData = require('./prefix.json');
+const prefix = prefixData.prefix;
 
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
